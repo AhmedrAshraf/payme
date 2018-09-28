@@ -13,4 +13,7 @@ app.get("/auth/google/callback", passport.authenticate("google", {scope: 'https:
     scope: ["profile", "email"]
     })
   );
+  app.get("/api/current_user", (req, res) => {
+    res.send(req.user)
+  })
 }
