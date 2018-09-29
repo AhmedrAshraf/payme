@@ -7,10 +7,11 @@
       "target": "http://localhost:5000"
     },
     "/api/*": {
-      "target":"http://localhost:5000"
+      "target": "http://localhost:5000"
     }
   },
   "dependencies": {
+    "@types/react-redux": "^6.0.9",
     "axios": "^0.18.0",
     "materialize-css": "^1.0.0",
     "react": "^16.5.2",
